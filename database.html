@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +10,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             margin: 0px;
             padding: 0px;
         }
-        .main{
+
+        nav {
+            background: #000;
+            color: white;
+            text-align: end;
+            font-size: 20px;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .main {
             color: black;
             display: flex;
             flex-direction: column;
-            justify-content: center ;
+            justify-content: center;
             align-items: center;
             font-family: 'Manrope', sans-serif;
-          
+
         }
-        .btn{
+
+        .btn {
             width: 100%;
             background: yellowgreen;
             border-radius: 8px;
@@ -31,80 +42,86 @@
             margin: 4rem 2rem;
             padding: 1rem;
         }
-        .child{
+
+        .child {
             margin: 2rem;
         }
 
-      
-   .back a{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-     background: rgba(255, 0, 0, 0.249);
-     padding: 1rem;
-  
-   }
-   .back a{
-    text-decoration: none;
-    color: black;
-   }
-   .download{
-    margin-bottom: 5%;
-   }
-   h1{
-    margin-top: 60px;
-   }
 
+        .back a {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 0, 0, 0.444);
+            padding: 1rem;
+            font-weight: bold;
 
+        }
 
+        .back a {
+            text-decoration: none;
+            color: black;
+        }
 
+        .download {
+            margin-bottom: 5%;
+        }
+
+        h1 {
+            margin-top: 60px;
+        }
     </style>
 </head>
+
 <body>
 
+    <nav>Created by <img src="layer1.png" alt="" width="20"> ARIS corporation</nav>
     <div class="main">
-        <p class="back"><a href="/">  <  Go Back</a></p>
-         <h1>Understaning Table Relationships</h1>
-        
+        <p class="back"><a href="/">
+                < Go Back</a>
+        </p>
+        <h1>Understaning Table Relationships</h1>
+
         <div class="child">
             <p>TOPIC : raw database</p>
-            
-         </div>
-         <div class="download">
-           
-             <a class="btn" href="raw.accdb" download>Download Database File</a>
-         </div>
-        
-        <div class="child">
-           <p>TOPIC : one to one relationship</p>
-           
+
         </div>
         <div class="download">
-          
+
+            <a class="btn" href="raw.accdb" download>Download Database File</a>
+        </div>
+
+        <div class="child">
+            <p>TOPIC : one to one relationship</p>
+
+        </div>
+        <div class="download">
+
             <a class="btn" href="one-to-one.accdb" download>Download Database File</a>
         </div>
         <div class="child">
             <p>TOPIC : one to many relationship</p>
-            
-         </div>
-         <div class="download">
-           
-             <a class="btn" href="one-to-many.accdb" download>Download Database File</a>
-         </div>
-         <div class="child">
+
+        </div>
+        <div class="download">
+
+            <a class="btn" href="one-to-many.accdb" download>Download Database File</a>
+        </div>
+        <div class="child">
             <p>TOPIC : many to many relationship</p>
-            
-         </div>
-         <div class="download">
-           
-             <a class="btn" href="many-to-many.accdb" download>Download Database File</a>
-         </div>
+
+        </div>
+        <div class="download">
+
+            <a class="btn" href="many-to-many.accdb" download>Download Database File</a>
+        </div>
     </div>
-  
 
 
 
 
-      
+
+
 </body>
+
 </html>
